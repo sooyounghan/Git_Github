@@ -88,7 +88,7 @@ local.properties
 
 <div align="center">
 <img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/4364164a-cb48-4e53-aa08-67f121a79aac">
-<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/865cab65-3bba-4ae9-95a5-0bae1a6b99f5">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/9af69d08-49e0-4a8a-bfe8-fb4f309a13e8">
 </div>
 
   + .gitignore에서 설정을 해제하면, 다시 git의 관리 대상에 포함
