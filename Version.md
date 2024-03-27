@@ -296,7 +296,7 @@ git revert (되돌릴 커밋 해시)
 6. Source Tree에서 보면, 해당 커밋에 대해 반대로 실행한 커밋 한 개가 더 존재 파악 가능
 <div align="center">
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/71a280c2-f978-432b-bf3b-2e3c83dcb2aa">
-<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/4af00e3b-b22d-4117-8978-ec6d37f82c34">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/55b3f315-2bd3-45e0-8d3e-c6dc2db43307">
 </div>
 
    - 즉, 마지막 커밋과 이 커밋 사이에 있는 커밋들을 건너뛰고, revert로 지정한 커밋에 대한 변화만 가져옴
