@@ -1,0 +1,101 @@
+-----
+### Git 관리에서 특정 파일 / 폴더를 배제해야 할 경우
+-----
+1. git에서 포함할 필요가 없을 때 : 자동으로 생성 또는 다운로드 되는 파일 (빌드 결과물, 라이브러리)
+2. git에서 포함하지 말아야 할 때 : 보안상 민감한 정보를 담은 파일 (비밀번호 등)
+3. 그렇다면, 이를 어떻게 배제할 것인가?
+
+-----
+### gitinore
+-----
+1. .gitingore 파일을 사용해 배제할 요소들을 지정
+2. 즉, .gitignore라는 파일을 생성해 프로젝트에서 어떤 요소들을 git으로 경위할지, 무시할지 설정 가능
+
+-----
+### gitinore 설정
+-----
+1. 진행 중인 git 프로젝트 파일에서 secret이라는 비밀 정보가 담긴 파일이 있다고 가정하자.
+2. 우선, 현재 어떤 부분이 commit될 것인지 Git Staging으로 확인할 수 있도록 하자. 접근 방법은 다음과 같음
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/a271e9c1-3baf-4d52-bed4-bc92e54a0f21">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/20af6da0-bb7b-4e0b-9f7a-624e8118e8d7">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/19619b65-069a-4c8a-8dcf-bd7f3a287b74">
+</div>
+
+3. 이렇게 현재 부분을 알 수 있는데, 이 중 .classpath와 같은 파일은 우리가 굳이 관리할 필요가 없는 파일이라면, 이를 어떻게 gitignore로 옮길까?
+  - 우선, 개발 환경을 다음과 같이 git 환경으로 변경
+<div align="center">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/0b76ff26-59f5-4756-a736-a105002f4b5b">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/4e0b67c5-5cea-42d0-a19e-9813846b71e2">
+</div>
+
+  - git 환경으로 진입하면, init 하면서 생성된 .gitignore 파일이 확인이 가능
+  - 그렇다면, 현재 .gitignore 파일의 구성은 어떨까?
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/227d51bc-49d5-46ae-aaf2-f0a51575249b">
+</div>
+
+  - 위와 같은 구성으로 되어있는데, 그렇다면 우리가 .gitignore에 어떤 것들을 넣어야 할지 고민이 되는 사항이 발생
+  - gitignore.io : https://www.toptal.com/developers/gitignore (운영체제, 개발환경,프로그래밍 언어에 맞게 생성)
+  - 다음과 같이 입력하면, .gitignore 파일에 넣을 정보가 생성
+<div align="center">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/8a1846c2-997f-43ae-b453-45fdebe05b48">
+</div>
+
+  - 간단하게 볼 수는 없지만, 대략 다음과 같은 내용들이 나옴 (물론 여기서 설정해준 것 외에도, 프로젝트에서 넣어야 할 것들은 팀 내 결정)
+```
+# Created by https://www.toptal.com/developers/gitignore/api/windows,eclipse,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,eclipse,java
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+....
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,eclipse,java
+```
+
+ - 위 내용들을 위에 .gitignore 파일에 저장한 후, 맨 위의 사진으로 돌아가보면?
+<div align="center">
+<img src ="https://github.com/sooyounghan/Git-Github/assets/34672301/68799bc0-3939-4b74-a47a-654884bca0e5">
+</div>
+
+  - 이처럼, 우리가 설정한 일부 파일들에 대해 gitignore가 적용된 것을 알 수 있음
+  - 쉬운 예로, VS Code에서 적용된 사례를 아래 사진을 참고
+<div align="center">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/345bdeee-8466-4bfb-be10-57b0a04b5333">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/026a634c-32ec-4314-b922-31d51f24abe5">
+</div>
+
+  + Secret 파일은 민감한 정보가 있지만, 현재 git에서 관리
+
+<div align="center">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/5364ecb0-c332-441e-b077-ccdb9442dc9b">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/a8b47257-f5d5-45f0-af45-dc4f96fad3d4">
+</div>
+
+  + .gitignore에 설정하면, 다음과 같이 git 관리 대상에서 배제
+
+<div align="center">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/4364164a-cb48-4e53-aa08-67f121a79aac">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/865cab65-3bba-4ae9-95a5-0bae1a6b99f5">
+</div>
+
+  + .gitignore에서 설정을 해제하면, 다시 git의 관리 대상에 포함
+
+4. .gitignore 형식 : https://git-scm.com/docs/gitignore
+5. 예시
+<div align="center">
+<img src = "https://github.com/sooyounghan/Git-Github/assets/34672301/0c2d2c34-d15d-42fc-9096-6d50e8d5d34c">
+</div>
+
