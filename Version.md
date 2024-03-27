@@ -301,3 +301,42 @@ git revert (되돌릴 커밋 해시)
 
    - 즉, 마지막 커밋과 이 커밋 사이에 있는 커밋들을 건너뛰고, revert로 지정한 커밋에 대한 변화만 가져옴
    - 또한, 내역을 삭제하면 reset은 그 내역이 사라지지만, revert는 무엇을 취소했는지 또 history에 기록에 남게되므로 주로 사용
+
+-----
+### Revert 심화 : 수정 내역으로 인한 충돌
+-----
+1. modified practice2.jsp / new file practice3.jsp / delete test.txt 시점으로 revert를 하려고 한다고 하자.
+2. 하지만, 이후에 이미 Modified practice3.jsp를 수정한 내역이 있기 때문에, revert 기준으로 삭제를 고려해야되는데, 수정 사항이 있기에 이에 대한 충돌이 발생할 것
+3. 실제로, git bash로 1의 시점으로 revert를 한다면?
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/be87a308-6de4-487f-9c37-d8063e3638c8">
+</div>
+
+4. 이처럼, 예상했던 충돌이 발생하고, 해당 메뉴들은 현재 아직 revert가 현재 진행형임을 알려줌
+5. 따라서, practice3.jsp에 대해서 명확하게 삭제될지, 말아야할지 결정을 내려주고 continue를 해줘야함
+   - 여기서는 이 파일에 대해 삭제하고, 다시 convert 진행
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/0b1c5a87-3357-413d-807a-2f02b8b3137e">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/7f091754-f42f-4cbc-9b5f-0a2715083c5a">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/9a153011-50c0-4e91-b367-559388db4b44">
+</div>
+
+-----
+### Commit하지 않고, revert
+-----
+1. revert 명령어 수행 시는 자동으로 Commit까지 실행
+2. 형식
+```
+git revert --no-commit (되돌아갈 해시 값)
+```
+3. 예를 들어, Add practice4.jsp로 revert하고자 한다면, (해시값 : 30ac658e96e8148f8bd9c349e4fbbdd200f5fb81)
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/c3e5164b-4443-489a-93a1-47f09ef9c794">
+</div>
+
+4. 여기서는 revert를 통해 practice.jsp에 대한 삭제에 대해 바로 commit이 되지않아 준비하고 있는 상태 (add) : 즉, commit 별도로 필요
+5. 일반적으로 하나의 revert 외에 원하는 다른 작업을 추가한 다음 함께 commit하기 위한 용도로 사용
+
+-----
+### revert 취소 : git reset --hard
+-----
