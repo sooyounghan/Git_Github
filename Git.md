@@ -45,30 +45,18 @@
 -----
 ### Source Tree 설치
 -----
+<div align="center">
+<img src ="https://github.com/sooyounghan/Git-Github/assets/34672301/dc4b54ec-60e4-4ac7-8065-8623b06185e7">
+</div>
 1. Git을 GUI로 다룰 수 있도록 해주는 Tool
 2. Bitbucket / Mercuiral
    - Bitbucket : Github과 같은 종류의 서비스
    - Mercuiral : Git과 같은 다른 프로그램
-  
------
-### Eclipse 내 Git Bash 연동
------
-1. Window > Show view > Other.. 메뉴 접근
-<div align="center">
-<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/17380657-0630-415c-a845-87f59635e64d">
-</div>
-   
-2. Terminal > Terminal 접근
-<div align="center">
-<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/8ae7fc71-59d1-46f8-b1f5-cf0e346d7b1b">
-</div>
 
-3. Chhose Terminal : Git Bash
-<div align="center">
-<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/648dbb66-d42c-4fc6-99fb-4fd6b27e4d59">
-</div>
-
-4. 설정이 완료되면, 아래 Terminal의 모니터 부분을 눌러서 Git Bash 설정
-<div align="center">
-<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/a6dbe79c-b7bf-4d48-b0d3-7a6fe105034e">
-</div>
+-----
+### CLI / GUI
+-----
+1. CLI(Command Line Interface) : 명령어 기반 인터페이스 (Git Bash)
+   - 뭔가를 실행하기 위해 어떤 명령을 내릴 때 사용하는 것이 좋음
+2. GUI(Graphic User Interface) : 유저가 사용하기 편하도록 그래픽 요소를 활용한 인터페이스 (Source Tree)
+   - 프로젝트의 상태를 Git 상에서 자세히 살펴보고 싶을 때 사용하는 것이 좋음
