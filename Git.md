@@ -15,4 +15,9 @@
 -----
 ### Git Bash Version
 -----
-1. 버전 확인 : Git --version
+: 버전 확인 : Git --version
+
+-----
+### Source Tree 설치
+-----
+: Git을 GUI로 다룰 수 있도록 해주는 Tool
