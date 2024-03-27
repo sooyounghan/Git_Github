@@ -39,6 +39,7 @@
 <div align="center">
 <img src ="https://github.com/sooyounghan/Git-Github/assets/34672301/dc4b54ec-60e4-4ac7-8065-8623b06185e7">
 </div>
+
 1. Git을 GUI로 다룰 수 있도록 해주는 Tool
 2. Bitbucket / Mercuiral
    - Bitbucket : Github과 같은 종류의 서비스
