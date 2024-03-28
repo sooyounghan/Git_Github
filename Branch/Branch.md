@@ -1,7 +1,7 @@
 -----
 ### branch
 -----
-1. 분기된 차이 = '다른 차원'
+1. 분기된 차원 = '다른 차원'
 <div align = "center">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/9277c3fa-f793-4c91-876f-322afa727f93">
 </div>
