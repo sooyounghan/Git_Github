@@ -340,3 +340,56 @@ git revert --no-commit (되돌아갈 해시 값)
 -----
 ### revert 취소 : git reset --hard
 -----
+
+-----
+### Source Tree를 통한 실습
+-----
+1. .gitignore에 *.config를 추가
+2. git 관리 파일로 hello.txt 파일 추가
+3. 이에 대해 git status 명령어로 확인하면,
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/4c2d86fc-b828-47e2-b4e1-3977b8f4f2c0">
+</div>
+
+4. 다음과 같이 현재 .ignore 파일과 hello.txt에 대한 정보를 볼 수 있음
+5. 이번에는 source tree를 통해 실습을 해보도록 하자.
+  - 현재 스테이지에 올라가지 않은 파일은 4번과 동일
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/940349d4-ecad-49df-88ec-5421e54e8743">
+</div>
+
+  - 여기서 선택적으로 스테이지로 올리고 싶다면, 이를 체크 (=git add 과정)
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/e48e29ea-9512-4a93-b966-8fac4fc66c5b">
+</div>
+
+  - 이제 commit을 진행하도록 하자 (= commit -m "커밋메세지")
+  - source tree 상단 메뉴에 '커밋' 클릭
+  - 그러면 다음과 같은 창이 뜰텐데, 아래 하단에 커밋 메세지를 추가한 후, 커밋 실행
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/3a4b68e7-c017-42b5-b9df-115c1206a74a">
+</div>
+
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/06f7ba93-d65d-4db8-9b66-4b341eb20c64">
+</div>
+
+  - 커밋이 완료된 것을 볼 수 있음
+
+6. git bash의 git status를 확인하면, 정상적으로 커밋이 된 것을 볼 수 있음
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/2253f941-1361-4c50-8895-cb199a0459cf">
+</div>
+
+7. revert 적용 방법
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/803be648-aa83-41e9-8d73-7db352c41d79">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/277d8be5-7118-4fc1-b1a2-03c88e492546">
+</div>
+
+8. reset 적용 방법
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/98d1fa9a-525d-4d7e-a729-8e6c1e52c562">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/c78a7d84-bdda-4690-97db-3f256c162da2">
+</div>
+
