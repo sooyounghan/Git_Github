@@ -104,8 +104,8 @@ git branch -D (branch_name)
    - practice2.jsp 내용 수정 (내용 : Hi insert)
     
 2. add-practice branch에서 다음과 같은 작업 실행
-  - practice4.jsp 내용 수정 (내용 : practice branch..)
-  - practice5.jsp 내용 수정 (내용 : practice branch..)
+   - practice4.jsp 내용 수정 (내용 : practice branch..)
+   - practice5.jsp 내용 수정 (내용 : practice branch..)
 
 3. now-practice branch에서 다음과 같은 작업 수행
    - pracitce1.jsp 내용 수정 (내용 : insert now-practice)
@@ -133,7 +133,7 @@ git log --all --decorate --oneline --grpah
 <img src="https://github.com/sooyounghan/Web/assets/34672301/20a39ab8-679f-4938-bd0a-52b9c971126c">
 </div>
 
-  - * 는 하나의 branch
+  - (*) 는 하나의 branch
   - 분기별로 나타내는 것을 볼 수 있으며, 현재 branch 위치도 파악 가능
   - 하지만 되도록, source tree로 편하게 GUI로 보는 것이 좋음
 
