@@ -8,9 +8,8 @@
 ### branch 병합 방식 : Merge vs Rebase
 -----
 <div align="center">
-<img src="https://github.com/sooyounghan/Web/assets/34672301/ae543569-04f5-4577-9de3-66deec8673f4">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/ed58cead-d6b0-4033-8b8f-49367a877087">
 </div>
-
 
 1. merge : '병합'이라는 말처럼, 두 개의 branch를 묶는 것
    - 즉, 원래 branch와 조합될 branch가 서로 합쳐지는 것
@@ -18,8 +17,9 @@
    - 좀 더 심화된 내용은 추후에 다루기로!
 
 <div align="center">
-<img src="https://github.com/sooyounghan/Web/assets/34672301/45b1aba0-7485-4b98-8a6d-0c6c79ca8862">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/ae543569-04f5-4577-9de3-66deec8673f4">
 </div>
+
 2. rebase : branch 마디, 즉 commit들을 적용하고자 하는 대상 branch로 옮기는 것
    - 마치 main branch에 분기된 branch의 commit들을 하나하나 추가한 것 처럼 되는 효과
   
