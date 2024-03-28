@@ -73,6 +73,7 @@ git merge new-practice
    - 이에 따라, 이제 new-practice 삭제
 
 < rebase 순서 >
+
 4. 즉, rebase는 rebase를 할 대상 branch로 이동해 그 시점에서 main-branch의 뒤에 이어줌
 5. 이 상태에서 new-practice를 main-branch에 merge
 
