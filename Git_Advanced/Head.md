@@ -27,7 +27,7 @@ git checkout HEAD^(~)5 (커밋 해시)
 ```
   - 원하는 만큼 이전하고 싶다면 그 수만큼 ~나 ^ 사용
   - 또는 숫자를 사용해 이동 가능
-  - 예) 3단계 전으로 이동 : git checkout HEAD^^^(~~~) 또는 git chekcout HEAD-3
+  - 예) 3단계 전으로 이동 : git checkout HEAD^^^(~~~) 또는 git chekcout HEAD^(~)3
     
 3. delta-branch로 이동 후, 두 단계 뒤로 가고 싶다면?
 <div align="center">
