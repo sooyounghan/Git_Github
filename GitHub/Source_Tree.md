@@ -1,4 +1,3 @@
-
 -----
 ### Source Tree 
 -----
@@ -20,21 +19,21 @@
 4. 완료가 되면, 위의 '푸시'를 누른 후 해당 부분을 누르고 push를 하면 연동
 <div align="center">
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/f1536274-2e6a-4869-9add-86bff9790718">
-<img src="https://github.com/sooyounghan/Git_Another_Pracitce/assets/34672301/bea5e573-15a6-4c76-95e2-af8cdf57843b">
+<img src="https://github.com/sooyounghan/Git_Pracitce/assets/34672301/e0f67266-d261-4c72-812e-57dc625826af">
 </div>
 
 5. push
    - local에서 practice2.jsp에 내용 추가
    - Source Tree에서도 현재 커밋되지 않은 부분임을 알 수 있음
 <div align="center">
-<img src="https://github.com/sooyounghan/Git_Another_Pracitce/assets/34672301/1b8677b7-110b-410a-867a-1bd0e39f639b">
-<img src="https://github.com/sooyounghan/Git_Another_Pracitce/assets/34672301/5e40091d-3148-45ad-9d32-29fa43caff34">
+<img src="https://github.com/sooyounghan/Git_Pracitce/assets/34672301/9d5d6502-61c6-4b03-b717-4bf9e636961b">
+<img src="https://github.com/sooyounghan/Git_Pracitce/assets/34672301/82f74ab4-7bff-4560-b82f-4bae257514de">
 </div>
 
   - 이제 Soruce Tree에서 커밋을 눌러주면, commit과 push를 동시에 가능
 
 <div align="center">
-<img src="https://github.com/sooyounghan/Git_Another_Pracitce/assets/34672301/d128d8db-0b53-4c7e-bef3-871fcfa21af9">
+<img src="https://github.com/sooyounghan/Git_Pracitce/assets/34672301/ae1aa293-767d-4e64-9326-d170cee0fb23">
 </div>
 
   - 적용됨을 확인 가능
