@@ -107,7 +107,7 @@ git rm 파일명
 </div>
 
 ```
-git rv (원래파일명이름) (바뀔파일명이름)
+git mv (원래파일명이름) (바뀔파일명이름)
 ```
 
   - 다시 복원 후 git mv tigers.yaml zzamtigers.yaml로 실행하면, 위와 같아짐 (즉, 위의 과정을 한 번에 처리)
