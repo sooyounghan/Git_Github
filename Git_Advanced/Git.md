@@ -81,7 +81,7 @@
 <img src="https://github.com/sooyounghan/Git_Practice/assets/34672301/ce3a4e58-3f06-4308-a167-c066c877d7c5">
 </div>
 
-   - 그렇다면, 위의 과정응 거치지 않고, 삭제가 되면 바로 staging area로 넘어가도록 하는 방법은?
+   - 그렇다면, 위의 과정을 거치지 않고, 삭제가 되면 바로 staging area로 넘어가도록 하는 방법은?
    - git rm 이용
 ```
 git rm 파일명
