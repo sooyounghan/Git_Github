@@ -106,6 +106,10 @@ git rm 파일명
 <img src="https://github.com/sooyounghan/Git_Practice/assets/34672301/aca0e792-1e2d-492b-8e18-67bb5c436974">
 </div>
 
+```
+git rv (원래파일명이름) (바뀔파일명이름)
+```
+
   - 다시 복원 후 git mv tigers.yaml zzamtigers.yaml로 실행하면, 위와 같아짐 (즉, 위의 과정을 한 번에 처리)
 <div align="center">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/edec9f76-b4fa-4aae-8d8b-410cf62629be">
