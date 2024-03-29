@@ -106,5 +106,48 @@ git rm 파일명
 <img src="https://github.com/sooyounghan/Git_Practice/assets/34672301/aca0e792-1e2d-492b-8e18-67bb5c436974">
 </div>
 
+  - 다시 복원 후 git mv tigers.yaml zzamtigers.yaml로 실행하면, 위와 같아짐 (즉, 위의 과정을 한 번에 처리)
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/edec9f76-b4fa-4aae-8d8b-410cf62629be">
+</div>
 
-복원 후 git mv tigers.yaml zzamtigers.yaml로 실행 뒤 비교
+
+3. git restore
+   - 파일을 staging area에서 working directory로 이동할 때 사용 (즉, 다른 Commit에서 하고 싶을 때 사용)
+```
+git restore --staged (파일명)
+```
+   - --stage를 하면, working directory로 되돌리는 것
+
+```
+git resotre
+```
+   - add가 되지 않은 상태, 즉 working directory에서 resotre를 하면, 파일 자체가 전의 commit 상태로 되돌아가는 것
+   
+   - 과거) get reset HEAD (파일명)
+
+   - 특정 파일에 수정을 가한 후 git status 확인
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/1a4ff0b9-9b33-4d24-aa04-45b954d7d458">
+</div>
+
+   - git add . 후 git status 확인
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/56a532fe-dbd9-45d4-b0bb-e6dd6b9cc05b">
+</div>
+
+   - 이 중 tigers.yaml을 staging area에서 제외하고 싶다면, 다음과 같이 명령어를 입력한 후 git status를 확인하면 제외된 것을 볼 수 있음
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/9e0e2c1f-1930-4f5f-ab5d-d31bff43e4ee">
+</div>
+
+   - Source Tree에서 확인하면 위와 같음
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/962d153c-4b58-4547-b2a7-ed044296b919">
+</div>
+
+4. reset의 3가지 옵션
+   - --soft : 변화 내역을 reposiotry에서 제거하여 staging area에는 남겨둠 (즉, commit은 되지 않았지만, add는 된 상태)
+   - --mixed (default) : 변화 내역을 working directory까지 유지 (즉, 파일 자체는 변화시키지 않음) / 즉, staging area에서 제거
+   - --hard : 변화 내역 자체를 지움 (즉, working directory에서까지 없앰)
+
