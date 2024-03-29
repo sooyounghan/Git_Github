@@ -35,6 +35,7 @@
 <img src="https://github.com/sooyounghan/Web/assets/34672301/f4c7079b-58b7-42cc-8be4-a4e69c889de2">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/43bd6e35-45b1-48a7-8f50-2c308a8ca263">
 </div>
+
    - Note : 일종의 자기의 token 이름
    - Expiration : 만료 기간
    - Select Scopes : 어떤 권한까지 이 Token을 허용할 것인가? (추후 수정 가능)
