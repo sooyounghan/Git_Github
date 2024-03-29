@@ -2,7 +2,7 @@
 ### 델타 방식과 스냅샷 방식
 -----
 <div align="center">
-<img src="https://github.com/sooyounghan/Git_Pracitce/assets/34672301/848c3eeb-3e0d-4541-a25b-09f9ea476144">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/26230a8c-6f47-4fc9-95ec-0bf6c6bbb00e">
 </div>
 
 1. 델타 방식
@@ -20,7 +20,7 @@
 ### 중앙집중식 버전 관리와 분산 버전 관리
 -----
 <div align="center">
-<img src="https://github.com/sooyounghan/Git_Pracitce/assets/34672301/6426fc2a-c569-43a0-ae6c-565538a0e3d6">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/0bbc0cc0-99dc-4464-b4a3-1ed99698556a">
 </div>
 
 1. 중앙집중식 버전 관리 (CVS, Subversion)
@@ -44,7 +44,7 @@
 ### Git의 3가지 영역
 -----
 <div align="center">
-<img src = "https://github.com/sooyounghan/Git_Pracitce/assets/34672301/8809849d-115f-487a-b776-8a1864fe2fec">
+<img src = "https://github.com/sooyounghan/Web/assets/34672301/72ced2c4-5291-4ccf-9a3d-b5c56ebcd0f9">
 </div>
 
 1. Working Directory
