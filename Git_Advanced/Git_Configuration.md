@@ -27,6 +27,7 @@ git config (--global) -e
 3. 기본 에디터 수정 (예시) VS CODE)
 ```
 git config --global core.editor "code --wait"
+git config --global core.editor "vim"
 ```
   - 수정이 완료되고 다시 에디터를 보면, 해당 에디터에서 확인 가능
 <div align="center">
@@ -66,13 +67,13 @@ git config --global push.default current
 ```
 git config --global alias.(단축키) "명령어"
 ```
-1. 예시 : git config --global alias.cam "commit -am"
+ - 예시 : git config --global alias.cam "commit -am"
 <div align="center">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/8b9f1fc9-372c-4de2-8dc0-f873c4982715">
 </div>
 
-2. 명령어가 하나 이상이면 작은 따옴표로 묶음 : git config --global alias.unstage 'reset HEAD---'
-3. 관련 문서 : https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-Alias
+ - 명령어가 하나 이상이면 작은 따옴표로 묶음 : git config --global alias.unstage 'reset HEAD---'
+ - 관련 문서 : https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-Alias
 
 
 
