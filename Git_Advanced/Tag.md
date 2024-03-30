@@ -122,7 +122,49 @@ git checkout 태그명
 <img src="https://github.com/sooyounghan/Web/assets/34672301/baa10026-8586-4bbd-9e0d-2f480f0178be">
 </div>
 
-
 2. switch로 이전 branch로 이동 가능
    
+-----
+### 원격의 태그 동기화
+-----
+1. 특정 태그 원격에 올리기
+```
+git push (원격명) (태그명)
+```
+   - local의 v2.0.0 태그를 원격으로 올리기
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/d1182a70-8b96-4c68-97b6-97d3229f5a87">
+</div>
 
+   
+2. 특정 태그 원격에서 삭제
+```
+git push --delete (원격명) (태그명)
+```
+   - 올렸던 v2.0.0 태그 삭제
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/e21a6705-1a9c-4fdc-b3f4-12bf197faf7a">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/d3d840b0-2785-461b-982e-a73ecdd08104">
+</div>
+
+3. 로컬의 모든 태그 원격으로 올리기
+```
+git push --tags
+```
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/36e6488f-bcc6-44c9-b5df-1f42f79502bf">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/1786a86f-ca91-4e78-8d31-bb727c6de93a">
+</div> 
+
+-----
+### GitHub의 Release
+-----
+1. Tag 중의 원하는 부분을 Release 가능
+2. 회원 뿐 아니라 방문자들이 다운받을 수 있도록 제공하는 방법
+
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/66a48460-78ea-43bf-bc64-ea12bf4406b2">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/65d425bb-8d22-4cff-93c4-3151ce3f37b8">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/f202a12e-5d6c-448f-9c06-a78851b44acf">
+
+</div> 
