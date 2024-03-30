@@ -4,7 +4,8 @@
 1. 협업을 위한 Branching 전략
 2. https://nvie.com/posts/a-successful-git-branching-model/
 <div align="center">
-<img src="[https://github.com/sooyounghan/Web/assets/34672301/5e888038-acf3-468c-b1d8-f75161fc848c](https://github.com/sooyounghan/Web/assets/34672301/ed5b615d-c3e5-4e20-a0f1-00274b8411ce)">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/ed5b615d-c3e5-4e20-a0f1-00274b8411ce">
+  
 </div>
   - master : 실제로 user들에게 보여질 version들이 merge (tag)
   - develop : 개발 작업 부분
