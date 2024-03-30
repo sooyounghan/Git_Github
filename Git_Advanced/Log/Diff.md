@@ -51,5 +51,5 @@ git diff (branch1) (branch2)
 ````
 <div align="center">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/44119060-17e0-4d78-b302-2a1206779fac">
-<img src="https://github.com/sooyounghan/Web/assets/34672301/64cd114a-3caf-41e1-9811-93108a35dcda">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/99d8548a-b46e-44e8-95a5-c9c495f0e0c3">
 </div>
