@@ -39,5 +39,5 @@ git rebase --onto main fruit citrus
       * 방법 A : citrus branch는 해당 branch가 옮겨지기 전 마지막 커밋인 commit:Lime 부분을 reflog에서 찾아 reset --hard
       * 방법 B : 다시 rebase --onto를 사용해 citrus의 commit을 main으로부터 다시 fruit branch의 orange 부분으로 옮기는 것
         - 이를 위해서는 orange commit으로 checkout 한 다음 새로운 브랜치를 생성 (temp)
-        - git rebae --onto temp main cirtus로 cirtus의 두 commit을 해당 위치로 옴긴 뒤 temp branch 삭제
+        - git rebae --onto temp main cirtus로 cirtus의 두 commit을 해당 위치로 옮긴 뒤 temp branch 삭제
           
