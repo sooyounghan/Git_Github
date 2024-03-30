@@ -3,12 +3,9 @@
 -----
 1. 다른 커밋들을 하나로 묶어 가져오기
 ```
-merge --squash (대상 브랜치)
-```
-2. root branch의 마디들을 하나로 묶어 main branch로 가져오기
-```
 git merge --squash (대상 브랜치)
 ```
+2. root branch의 마디들을 하나로 묶어 main branch로 가져오기
   - merge가 완료된 것이 아닌, 이 branch들이 옮겨 붙여져서 add가 되어 현재 staging되는 것임
   - 따라서, commit을 해줘야 함을 주의
   - 또한, root branch는 기존 branch를 유지하며, 그 branch만 옮겨 붙여진 것
