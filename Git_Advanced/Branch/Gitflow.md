@@ -2,7 +2,12 @@
 ### GitFlow
 -----
 1. 협업을 위한 Branching 전략
-2. https://nvie.com/posts/a-successful-git-branching-model/
+2. 사용되는 Branch들
+<div align="center">
+<img src="https://github.com/sooyounghan/Web/assets/34672301/5e888038-acf3-468c-b1d8-f75161fc848c">
+</div>
+
+3. https://nvie.com/posts/a-successful-git-branching-model/
 <div align="center">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/ed5b615d-c3e5-4e20-a0f1-00274b8411ce">
 </div>
@@ -15,7 +20,3 @@
     + develop / master branch로 이동
   - 개발 과정에서 발견된 부분은 develop branch 부분에서 가능하지만, 출시된 부분에 대해서는 당장 고쳐야하는 부분이므로 hotfix branch 이용
 
-3. 사용되는 Branch들
-<div align="center">
-<img src="https://github.com/sooyounghan/Web/assets/34672301/5e888038-acf3-468c-b1d8-f75161fc848c">
-</div>
