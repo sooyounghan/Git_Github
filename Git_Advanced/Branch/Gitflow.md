@@ -5,8 +5,8 @@
 2. https://nvie.com/posts/a-successful-git-branching-model/
 <div align="center">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/ed5b615d-c3e5-4e20-a0f1-00274b8411ce">
-  
 </div>
+
   - master : 실제로 user들에게 보여질 version들이 merge (tag)
   - develop : 개발 작업 부분
   - feature branches : 개발 작업 부분 중 굵직한 개발 기능 구현 부분 (따라서, 여러 개 가능)
