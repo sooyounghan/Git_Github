@@ -120,6 +120,6 @@ git submodule update --remote
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/a5d75cf5-bc78-4a84-a64c-093d0d8adeed">
 </div>
 
-  - submodule 안의 또 submodule이 존재 : 위 명령어 끝에 --recursive 추가
+  - submodule 안의 또 submodule이 존재하여 모두 Update 하고 싶을 때 : 위 명령어 끝에 --recursive 추가
 
  
