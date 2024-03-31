@@ -23,14 +23,23 @@
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/6d1d6c3c-3885-467f-9929-1657aa7cc622">
 </div>
 
-   - Gitmoji 설치 후 init : gitmoji -i
-   - 결과
+-----
+### Git Hooks 적용
+-----
+1. 프로젝트 폴더에 훅 적용
+```
+gitmoji -i
+```
+2. 결과
 <div align="center">
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/329f8848-e1d8-409a-849b-3a877b90b2a5">
 </div>
 
-   - Commit을 실제로 해보면,
+3. Commit을 실제로 해보면,
 <div align="center">
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/7198b989-527b-4c78-a19c-f2cb2085de93">
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/83c96935-fd93-41e9-bfa4-ec7be628121a">
 </div>
+
+
+4. 삭제 : hooks 폴더에서 prepare-commit-msg 파일 삭제
