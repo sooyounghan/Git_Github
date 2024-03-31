@@ -3,7 +3,7 @@
 -----
 1. Git 상 이벤트마다 자동으로 실행될 스크립트 지정
 2. 예) Commit을 하게 되면, 자동으로 Push를 해주는 등의 스크립트 지정 가능
-3. 예시
+3. 예시 (.sample 파일은 실행되지 않음)
 <div align="center">
 <img src="https://github.com/sooyounghan/Git-Github/assets/34672301/148ebd87-fc04-4e73-8743-1924d82a9f35">
 </div>
