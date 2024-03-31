@@ -1,0 +1,36 @@
+-----
+### Git Hooks
+-----
+1. Git 상 이벤트마다 자동으로 실행될 스크립트 지정
+2. 예) Commit을 하게 되면, 자동으로 Push를 해주는 등의 스크립트 지정 가능
+3. 예시
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/148ebd87-fc04-4e73-8743-1924d82a9f35">
+</div>
+
+   - 파일의 이름은 각각 언제 실행되는가를 나타냄
+   - 예시) pre-commit : 커밋이 이루어지기 전 (커밋 명령어 직후~)
+   - 예시) pre-push : 푸시가 이루어지기 전 (푸시 명령어 직후~)
+
+4. gitmoji-cli 활용 예 보기 (https://github.com/carloscuesta/gitmoji-cli)
+   - 먼저 Node.js 설치 (Node.js 버전 확인 : npm -v)
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/0494b142-20ef-49b5-bac8-a1350037c83d">
+</div>
+
+   - 터미널에서 설치: npm i -g gitmoji-cli
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/6d1d6c3c-3885-467f-9929-1657aa7cc622">
+</div>
+
+   - Gitmoji 설치 후 init : gitmoji -i
+   - 결과
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/329f8848-e1d8-409a-849b-3a877b90b2a5">
+</div>
+
+   - Commit을 실제로 해보면,
+<div align="center">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/7198b989-527b-4c78-a19c-f2cb2085de93">
+<img src="https://github.com/sooyounghan/Git-Github/assets/34672301/83c96935-fd93-41e9-bfa4-ec7be628121a">
+</div>
