@@ -52,3 +52,31 @@ cat ~/.ssh/id_ed25519.pub
 </div>
 
 3. SSH 사용해보기
+
+-----
+### GPG 키를 통한 검증
+-----
+1. GitHub 커밋 내역 살펴보기
+   - Local에서 Push한 Commit과 GitHub에서 작성한 커밋 비교
+   - Verified : 신뢰할만한 출처에서 커밋되었다는 인증
+
+2. GPG 툴 설치
+   - https://www.gnupg.org/download/
+   - gpg --version으로 확인
+
+3. GPG 키 생성
+   - https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+  
+4. New GPG Key를 클릭해 등록
+   - https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
+  
+5. 사인하기
+   - Commit에 사인 : 명령어에 -s 옵션 추가
+```
+git commit -S -m '(메시지)'
+```
+
+   - Tag에 사인 : 명령어에 -s 옵션 추가
+```
+git tag -s (태그명) (커밋 해시) -m (메시지)
+```
