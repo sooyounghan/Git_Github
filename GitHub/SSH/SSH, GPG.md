@@ -58,7 +58,7 @@ cat ~/.ssh/id_ed25519.pub
 -----
 1. GitHub 커밋 내역 살펴보기
    - Local에서 Push한 Commit과 GitHub에서 작성한 커밋 비교
-   - Verified : 신뢰할만한 출처에서 커밋되었다는 인증
+   - Verified : 신뢰할만한 출처에서 커밋되었다는 인증 (즉, GitHub에서 Commit 한 것과 동일)
 
 2. GPG 툴 설치
    - https://www.gnupg.org/download/
