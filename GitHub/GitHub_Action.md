@@ -1,5 +1,5 @@
 -----
-### GitHub Actions를 사용한 자동화
+### GitHub Actions를 사용한 자동화 (강의 참조 필요)
 -----
 1. CI/CD : 지속적 통합과 배포 (자동화와 관련)
    - 참고자료 :  https://www.youtube.com/watch?v=UbI0Q_9epDM 
