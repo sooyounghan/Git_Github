@@ -7,7 +7,7 @@
 <img src="https://github.com/sooyounghan/Web/assets/34672301/4c3dd6ba-119b-430d-98f7-6c2e6d8cf331">
 </div>
 
-3. Sementic Versioning 정보 : https://semver.org/lang/ko/
+3. Sementic Versioning 정보 : ```https://semver.org/lang/ko/```
    - 즉 Version은 Major.Minor.Patch (예시) 1.0.0)
    - 기존 버전과 호환되지 않게 API가 바뀌면(큰 변화 발생) 'Major'
    - 기존 버전과 호환되면서 새로운 기능 추가 'Minor'
