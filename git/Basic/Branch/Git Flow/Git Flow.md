@@ -7,7 +7,7 @@
 <img src="https://github.com/sooyounghan/Web/assets/34672301/5e888038-acf3-468c-b1d8-f75161fc848c">
 </div>
 
-3. https://nvie.com/posts/a-successful-git-branching-model/
+3. ```https://nvie.com/posts/a-successful-git-branching-model/```
 <div align="center">
 <img src="https://github.com/sooyounghan/Web/assets/34672301/ed5b615d-c3e5-4e20-a0f1-00274b8411ce">
 </div>
